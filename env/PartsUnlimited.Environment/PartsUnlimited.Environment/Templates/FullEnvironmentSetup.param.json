@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "WebsiteName": {
-            "value": ""
+            "value": "website"
         },
         "PartsUnlimitedServerName": {
-            "value": ""
+            "value": "UnlimitedServer"
         },
         "PartsUnlimitedHostingPlanName": {
             "value": ""
@@ -28,6 +28,14 @@
         },
         "CdnStorageContainerNameForStaging": {
             "value": ""
-        }
+        },
+    
+        "PartsUnlimitedServerAdminLogin": {
+            "value": "administrator"
+        },
+        "PartsUnlimitedServerAdminLoginPassword": {
+            "value": "1"
+        }        
+        
     }
 }
